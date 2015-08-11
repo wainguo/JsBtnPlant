@@ -10,7 +10,8 @@ if(window.parent==self){
     var hCreatedDiv = document.createElement("div");
     hCreatedDiv.id="w_float_btn";
     hCreatedDiv.className="wifi-float-btn glow";
-    hCreatedDiv.innerHTML = "<img src=\"http://m.wiware.cn/_helpers/w.float.btn.png\" width=\"55px\" />";
+    // hCreatedDiv.innerHTML = "<img src=\"http://m.wiware.cn/_helpers/w.float.btn.png\" width=\"55px\" />";
+    hCreatedDiv.innerHTML = "<img src=\"w.float.btn.png\" width=\"55px\" />";
     document.body.appendChild(hCreatedDiv);
 
     var hPosX = 0;
@@ -63,7 +64,7 @@ if(window.parent==self){
     }
 
     function onTap(ev) {
-        window.location.href="http://m.wiware.cn";
+        window.location.href="https://github.com/wainguo";
     }
 }
 
